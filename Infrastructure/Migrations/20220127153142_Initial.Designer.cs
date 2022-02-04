@@ -10,7 +10,7 @@ using Infrastructure.Persistence.Contexts;
 
 namespace Infrastructure.Migrations
 {
-    [DbContext(typeof(ContractManagerContext))]
+    [DbContext(typeof(Context))]
     [Migration("20220127153142_Initial")]
     partial class Initial
     {

@@ -6,9 +6,9 @@ namespace Infrastructure.Persistence.Repositories
 {
     public class GenericRepository : IGenericRepository
     {
-        protected readonly ContractManagerContext _context;
+        protected readonly Context _context;
 
-        public GenericRepository(ContractManagerContext context)
+        public GenericRepository(Context context)
         {
             _context = context;
         }

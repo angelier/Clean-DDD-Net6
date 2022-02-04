@@ -9,8 +9,8 @@ using Infrastructure.Persistence.Contexts;
 
 namespace Infrastructure.Migrations
 {
-    [DbContext(typeof(ContractManagerContext))]
-    partial class ContractManagerContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(Context))]
+    partial class ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

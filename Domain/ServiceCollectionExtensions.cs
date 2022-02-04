@@ -20,7 +20,7 @@ namespace Domain
         {
             var defaultConnectionString = configuration.GetConnectionString("DefaultConnection");
 
-            services.AddDbContext<ContractManagerContext>(options =>
+            services.AddDbContext<Context>(options =>
                options.UseSqlServer(defaultConnectionString));
 
             services.AddScoped(typeof(IGenericRepository), typeof(GenericRepository));

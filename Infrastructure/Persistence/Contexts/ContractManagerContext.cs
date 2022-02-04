@@ -5,9 +5,9 @@ using System.Reflection;
 namespace Infrastructure.Persistence.Contexts
 {
 
-    public class ContractManagerContext : DbContext
+    public class Context : DbContext
     {
-        public ContractManagerContext(DbContextOptions<ContractManagerContext> options) : base(options)
+        public Context(DbContextOptions<Context> options) : base(options)
         {
         }
 
